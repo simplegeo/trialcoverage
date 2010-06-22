@@ -1,0 +1,24 @@
+Metadata-Version: 1.0
+Name: trialcoverage
+Version: 0.3.12
+Summary: a plugin to integrate Twisted trial with Ned Batchelder's coverage.py
+Home-page: http://tahoe-lafs.org/trac/trialcoverage
+Author: Brian Warner
+Author-email: zooko@zooko.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: License :: DFSG approved
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: Other/Proprietary License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.4
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Topic :: Software Development :: Libraries
