@@ -54,11 +54,6 @@ else:
 
 setup_requires = []
 
-# setuptools_trial is needed if you want "./setup.py trial" or
-# "./setup.py test" to execute the tests.
-# http://pypi.python.org/pypi/setuptools_trial
-setup_requires.extend(['setuptools_trial >= 0.5'])
-
 data_fnames=[ 'COPYING.SPL.txt', 'COPYING.GPL', 'COPYING.TGPPL.html', 'README.txt' ]
 
 # In case we are building for a .deb with stdeb's sdist_dsc command, we put the
@@ -82,7 +77,7 @@ setup(name=PKG,
       classifiers=trove_classifiers,
       zip_safe=False, # I prefer unzipped for easier access.
       install_requires=['coverage>=3.4a1', 'pyutil>=1.6.0', 'setuptools'],
-      tests_require=['mock',],
+      tests_require=['mock', 'setuptools_trial >= 0.5'],
       data_files=data_files,
       test_suite='trialcoverage.test',
       )
