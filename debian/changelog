@@ -1,3 +1,15 @@
+trialcoverage (0.3.12-1sg3) lucid; urgency=low
+
+  [ Ian Eure ]
+  * Add pycompat
+  * Fix section, update dependencies.
+  * Remove DARCS stuff, we don't need it for Debian.
+  * Remove trial from setup_requires, build-depend on python-mock.
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Wed, 23 Jun 2010 18:45:56 +0000
+
 trialcoverage (0.3.12-1sg1) unstable; urgency=low
 
   * Debianized.
