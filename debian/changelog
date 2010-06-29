@@ -1,3 +1,13 @@
+trialcoverage (0.3.12-1sg6) lucid; urgency=low
+
+  [ Ian Eure ]
+  * Switch to pycentral, filthy hack to get the twisted plugin installed
+    in the right place
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Tue, 29 Jun 2010 23:52:47 +0000
+
 trialcoverage (0.3.12-1sg5) lucid; urgency=low
 
   [ Ian Eure ]
