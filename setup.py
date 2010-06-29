@@ -61,9 +61,6 @@ data_fnames=[ 'COPYING.SPL.txt', 'COPYING.GPL', 'COPYING.TGPPL.html', 'README.tx
 doc_loc = "share/doc/" + PKG
 data_files = [(doc_loc, data_fnames)]
 
-# The twisted plugin has to go into twisted/plugins.
-data_files.append((os.path.join('twisted', 'plugins'), [os.path.join('twisted', 'plugins', 'trialcoveragereporterplugin.py')]))
-
 setup(name=PKG,
       version=verstr,
       description="a plugin to integrate Twisted trial with Ned Batchelder's coverage.py",
@@ -71,7 +68,7 @@ setup(name=PKG,
       author_email='zooko@zooko.com',
       url='http://tahoe-lafs.org/trac/' + PKG,
       license='BSD', # see README.txt for details -- there are also alternative licences
-      packages=find_packages(),
+      packages=find_packages() + ['twisted'],
       include_package_data=True,
       setup_requires=setup_requires,
       classifiers=trove_classifiers,
