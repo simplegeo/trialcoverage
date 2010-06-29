@@ -9,6 +9,6 @@ Homepage: http://pypi.python.org/pypi/trialcoverage
 
 Package: python-trialcoverage
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, python-coverage, python-pyutil
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-coverage, python-pyutil, python-zope.interface
 Description: Integrate Twisted trial with Ned Batchelder's coverage.py
 
